@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BOOTSTRAP WEBSITE CREATION</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3" >
+            <div class="container">
+                <a class="navbar-brand mx-auto" href="#"><span class="text-warning">RICHARD'S TECHNICAL SITE</a>
+                <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="where i live">what you will learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Biography"> Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Address">Instructions</a>
+                    </li>
+                </ul>
+                </ul>
+            </div>
+    
+    </nav> 
+    
+    <!--showcase -->
+    <section class="p-5 bg-dark text-light text-center">
+      <div class="container">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <!-- Image first -->
+          <img src="/bootstrap/BMSG8222.JPG" 
+          alt="hey" 
+          class="img-fluid rounded-circle mb-3 mx-auto d-block" 
+          style="width: 150px; height: 150px; object-fit: cover;">
+          <!-- Text content -->
+          <div class="text-center">
+            <h1>Become a <span class="text-warning">TECHNICIAN</span></h1>
+            <p class="lead">Learn how to build, repair and maintain electrical appliances, gadgets etc</p>
+            <button class="btn btn-lg btn-outline-light" data-bs-toggle="modal" data-bs-target="#enroll" type="button">Start Enrollment</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+        
+<!--news letter--> 
+<section class="p-5 bg-light">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-md-8">  
+        <p class="mb-4">Stay updated with our latest news, tips, and exclusive offers.</p>
+        <form class="d-flex flex-column flex-sm-row gap-2 justify-content-center">
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Enter your email"
+            required
+          />
+          <button type="submit" class="btn btn-outline-dark btn-lg">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <!-- Laptop Card -->
+      <div class="col">
+        <div class="card bg-dark text-light h-100">
+          <div class="card-body d-flex flex-column text-center">
+            <div class="h1 mb-3">
+              <i class="bi bi-laptop"></i>
+            </div>
+            <h3 class="card-title mb-3">Laptop</h3>
+            <p class="card-text flex-grow-1">
+              We service laptops of all makes and models. Our expert technicians will resolve your laptop issues and get you back to work in no time.
+            </p>
+            <a href="#" class="btn btn-outline-light mt-auto">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ladder Card -->
+      <div class="col">
+        <div class="card bg-dark text-light h-100">
+          <div class="card-body d-flex flex-column text-center">
+            <div class="h1 mb-3">
+              <i class="bi bi-box-seam"></i> <!-- updated icon -->
+            </div>
+            <h3 class="card-title mb-3">Ladder</h3>
+            <p class="card-text flex-grow-1">
+              We lease ladders for professional radio setup and configuration. Our equipment is safe, durable, and available on short notice.
+            </p>
+            <a href="#" class="btn btn-outline-light mt-auto">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Radio Card -->
+      <div class="col">
+        <div class="card bg-dark text-light h-100">
+          <div class="card-body d-flex flex-column text-center">
+            <div class="h1 mb-3">
+              <i class="bi bi-broadcast"></i>
+            </div>
+            <h3 class="card-title mb-3">Radio</h3>
+            <p class="card-text flex-grow-1">
+              We service radios of all makes and models. Our expert technicians will resolve your radio issues and get you back to work in no time.
+            </p>
+            <a href="#" class="btn btn-outline-light mt-auto">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!--learn section-->
+<section id="learn" class="py-5 bg-dark">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md text-light">
+        <img src="img/IMG_E4273.png" alt="Learn" class="img-fluid" style="max-width: 300px;">
+      </div>
+      <div class="col-md">
+        <h2>Learn More About Us</h2>
+        <p class="lead text-light">We are a team of experienced and knowledgeable technicians who are dedicated to providing the highest quality service to our customers. Our goal is to make sure that you are completely satisfied with your repair or maintenance service.</p>
+        <a href="#" class="btn btn-outline-light"><i class="bi bi-arrow-right"></i> Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--learn section-->
+
+  <section id="learn" class="py-5 bg-dark">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md text-light">
+          <img src="/bootstrap/developer-icon.jpg" alt="Learn" class="img-fluid" style="max-width: 300px;">
+        </div>
+        <div class="col-md">
+          <h2>Learn More About Us</h2>
+          <p class="lead text-light">We are a team of experienced and knowledgeable technicians who are dedicated to providing the highest quality service to our customers. Our goal is to make sure that you are completely satisfied with your repair or maintenance service.</p>
+          <a href="#" class="btn btn-outline-light"><i class="bi bi-arrow-right"></i> Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!--section-->
+<section id="Questions" class="p-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+    
+    <!-- Accordion wrapper -->
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      
+      <!-- Item 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne"
+            aria-expanded="false"
+            aria-controls="flush-collapseOne"
+          >
+            Hello, I have a question about my radio's maintenance. Can you help me?
+          </button>
+        </h2>
+        <div
+          id="flush-collapseOne"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <p>
+              Yes, we can help you with your radio's maintenance. Please contact us and we will be happy to assist you.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button 
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo"
+            aria-expanded="false"
+            aria-controls="flush-collapseTwo"
+          >
+            Hello, I have a question about my cellphone. Can you help me?
+          </button>
+        </h2>
+        <div
+          id="flush-collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <p>
+              Yes, we can help you with your cellphone's maintenance. Please contact us and we will be happy to assist you.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- End accordion -->
+  </div> <!-- End container -->
+</section>
+<!--instructors-->
+<section id="instructors" class="bg-dark p-5">
+  <div class="container">
+    <h2 class="text-center text-white">Instructors</h2>
+    <p class="lead text-center text-white mb-5">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eveniet amet ullam reprehenderit?
+    </p>
+    
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+            <h3 class="card-title mb-3">John Doe</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eveniet amet ullam reprehenderit?
+            </p>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/women/11.jpg" alt="" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+            <h3 class="card-title mb-3">sarah smith</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eveniet amet ullam reprehenderit?
+            </p>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/women/13.jpg" alt="" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+            <h3 class="card-title mb-3">adewale promise</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eveniet amet ullam reprehenderit?
+            </p>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/men/15.jpg" alt="" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+            <h3 class="card-title mb-3">Rabbi</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eveniet amet ullam reprehenderit?
+            </p>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End row -->
+  </div> <!-- End container -->
+</section>
+
+<!--contact info-->
+<section class="p-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md"></div>
+      <h2 class="text-center mb-4">Contact Info</h2>
+      <ul class="list-group list-group-flush lead">
+        <li class="list-group-item">
+          <span class="fw-bold">Email:</span> rabbi@gmail.com
+        </li>
+        <li class="list-group-item">
+          <span class="fw-bold">Phone:</span> 123-456-7890
+        </li>
+        <li class="list-group-item">
+          <span class="fw-bold">Address:</span> 123 Main St, Anytown, USA
+        </li>
+    </div>
+  </div>
+</section>
+ 
+<!--footer-->
+<footer class="bg-dark text-light text-center p-4">
+  <div class="container">
+    <p class="mb-0">Copyright &copy; 2025 RICHARD'S WEBSITE</p>
+  </div>
+</footer>
+
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel" class="fw-bold">MY FORM</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Fill out this form and we will get back to you.</p>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="col-form-label">First name:</label>
+            <input type="text" class="form-control" id="first-name" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="col-form-label">Last name:</label>
+            <input type="text" class="form-control" id="last-name" aria-describedby="emailHelp">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    </body>
+</html>
